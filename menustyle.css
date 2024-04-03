@@ -1,0 +1,72 @@
+/*hex codes:
+#FDF8E8 -WHITEBROWN
+#FF3131-TOMATO
+#00BF63-gREEN*/
+
+html {
+
+}
+body {   
+    font-family:Baskerville, Baskerville Old Face, Garamond, Times New Roman, serif;
+    height: 500%;
+    
+}
+.navbar {
+    background-color: #FDF8E8;
+    font-size: 26px;
+}
+
+.landingpic {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -12%;
+}
+.menu {
+    margin-top: 20%;
+}
+.iteminfo {
+    margin-left: 10% ;
+    background: rgba(15, 14, 13, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 8px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    height: 100%;
+    width: 100%;
+    color: white;
+    border-radius: 30px; 
+    text-align: end;
+    padding-right: 5%;
+}
+
+.iteminfo p {
+    display: flex;
+    text-align: end;
+    align-self: self-end;
+    width: 69%;
+    margin-left: 30%;
+    color: #FDF8E8;
+    font-size: 140%;
+}X
+.iteminfo h1 {
+    display: flex;
+    text-align: end;
+    width: 40%;
+    margin-left: 58%;
+    margin-top: -50%;
+    color: #1ad179;
+    font-weight:bold
+}
+h4 {
+    color:#1ad179;
+    background-color: #FDF8E8;
+}
+.item {
+    display: flex;
+    width: 59%;
+    align-self: flex-start;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
